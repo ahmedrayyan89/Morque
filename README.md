@@ -18,6 +18,12 @@
   <img src="https://img.shields.io/badge/Awwwards-Ready-FF4D00?style=flat-square&labelColor=080C12" />
 </p>
 
+<p align="center">
+  <a href="https://morque.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Demo-morque.netlify.app-00C8FF?style=flat-square&labelColor=080C12&logoColor=white" />
+  </a>
+</p>
+
 ---
 
 ## 🏁 The Experience
@@ -129,25 +135,6 @@ npm run build
 ```
 
 > **Note:** This project uses a 193-frame image sequence. The frames are not included in this repository due to file size. Place your own sequence in `/public/frames/` following the naming convention `frame_0001.webp` → `frame_0193.webp`.
-
----
-
-## Project Structure
-
-morque/
-├── public/
-│   └── frames/              # 193-frame WebP image sequence
-├── src/
-│   ├── app/                 # Next.js 14 App Router
-│   ├── components/
-│   │   ├── canvas/          # SequenceCanvas, WatermarkMask
-│   │   ├── nav/             # Glassmorphism navbar
-│   │   ├── sections/        # 5 scroll-linked story beats
-│   │   ├── ui/              # LoadingScreen, CursorDot, ScrollProgress
-│   │   └── effects/         # AmbientGlow, TunnelLines, TunnelCeiling
-│   ├── hooks/               # useScrollProgress, useImageSequence, useAnimationFrame
-│   ├── lib/                 # Constants, easing math, frame utilities
-│   └── types/               # Shared TypeScript interfaces
 
 ---
 
